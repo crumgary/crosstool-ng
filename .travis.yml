@@ -35,6 +35,7 @@ install:
 # Here is the list of all the standard samples tracked
 # by the continuous integration system
 env:
+    - CT_SAMPLE=powerpc-unknown-linux-uclibc
     - CT_SAMPLE=powerpc-unknown-linux-gnu
     - CT_SAMPLE=arm-unknown-eabi
     - CT_SAMPLE=armeb-unknown-eabi
